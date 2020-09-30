@@ -13,6 +13,7 @@ nav {
 .nav-links li{
  display: inline;   
 }
+
 .nav-links li:not(:last-child){
     margin-right: 10px;   
    }
@@ -22,11 +23,43 @@ color: whitesmoke;
 text-decoration: none;
 font-size: 25px;
 }
+
 main { 
     height: 80vh;
-    background-color: white;
+  
 }
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.left{
+background-color: yellow;
+float: left;
+}
+
+.right{
+    background-color: cyan;
+    float: right;
+    position: relative;
+}
+
+.center{
+    position: absolute;
+    background-color: black;
+    height: 60x;
+    width: 60x;
+    border-radius: 15px;
+}
+
+.left,
+.right {
+    width: 50%;
+    height: 80vh;
+}
+
 footer { 
-    heighit: 40vh;
+    height: 40vh;
     background-color: purple;
 }
