@@ -7,7 +7,7 @@ nav {
     position: absolute;
     top: 50%;
     right: 20px;
-    transform: translate(0%, -50%)
+    transform: translate(0%, -50%);
 }
 
 .nav-links li{
@@ -49,10 +49,11 @@ float: left;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%); 
     background-color: black;
-    height: 100x;
-    width: 10x;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
 }
 
 .left,
