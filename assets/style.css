@@ -47,6 +47,9 @@ float: left;
 
 .center{
     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     background-color: black;
     height: 60x;
     width: 60x;
@@ -59,7 +62,42 @@ float: left;
     height: 80vh;
 }
 
+.top{
+    height: 50%;
+    background-color: red;
+}
+.grid1{
+    height: 50%;
+    width: 50%;
+    background-color: orange;
+    float: left;
+}
+.grid2{
+    height: 50%;
+    width: 50%;
+    background-color: plum;
+    float: left;
+}
+.grid3 {
+    height: 50%;
+    width: 50%;
+    background-color: green;
+    float: left;
+}
+.grid4 {
+    height: 50%;
+    width: 50%;
+    background-color: rgb(255, 0, 85);
+    float: left;
+}
+
+
 footer { 
-    height: 40vh;
+    .grid1{
+        height: 50%;
+        width: 50%;
+        background-color: orange;
+        float: left;
+    }height: 40vh;
     background-color: purple;
 }
