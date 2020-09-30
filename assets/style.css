@@ -34,26 +34,25 @@ main {
     display: block;
 }
 
-.left{
+.left {
 background-color: yellow;
 float: left;
 }
 
-.right{
+.right {
     background-color: cyan;
     float: right;
     position: relative;
 }
 
-.center{
+.center {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     background-color: black;
-    height: 60x;
-    width: 60x;
-    border-radius: 15px;
+    height: 100x;
+    width: 10x;
 }
 
 .left,
@@ -66,24 +65,28 @@ float: left;
     height: 50%;
     background-color: red;
 }
+
 .grid1{
     height: 50%;
     width: 50%;
     background-color: orange;
     float: left;
 }
+
 .grid2{
     height: 50%;
     width: 50%;
     background-color: plum;
     float: left;
 }
+
 .grid3 {
     height: 50%;
     width: 50%;
     background-color: green;
     float: left;
 }
+
 .grid4 {
     height: 50%;
     width: 50%;
@@ -91,13 +94,6 @@ float: left;
     float: left;
 }
 
-
 footer { 
-    .grid1{
-        height: 50%;
-        width: 50%;
-        background-color: orange;
-        float: left;
-    }height: 40vh;
     background-color: purple;
 }
